@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Change Background Color</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome-iconpicker/3.2.0/css/fontawesome-iconpicker.min.css">
+</head>
+<body>
+  
+  <div class="container">
+    <h1>Try the sliders to change the background color</h1>
+    <div class="sliders">
+    <!-- Sliders for RGB values Type="range" -->
+    <label for="red">Red:</label>
+    <input type="range" id="red" min="0" max="255" value="0">
+
+    <label for="green">Green:</label>
+    <input type="range" id="green" min="0" max="255" value="0">
+
+    <label for="blue">Blue:</label>
+    <input type="range" id="blue" min="0" max="255" value="0">
+</div>
+  <div id="color-display">
+    <img class="color-image" src="images/2f6500fd-72a1-4d63-ae8e-448e8a6b9dfa.tmp" alt="Color Display">
+  </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
