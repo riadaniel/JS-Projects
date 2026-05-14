@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0; 
+
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:linear-gradient(to right, rgb(129, 45, 45), rgb(58, 58, 91));
+
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(48, 46, 46);
+  width: 350px;
+  height: 350px;
+  border-radius: 20px;
+}
+#counter{
+  border-radius: 100px;
+  background-color: rgb(53, 53, 55);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;    
+  align-items: center;
+  color: white;
+ border: 5px solid transparent;
+}
+h1{
+  color: white;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.button-group{
+  display: flex;
+  gap: 50px;
+  padding: 40px;
+}
+#increment{
+  background-color: rgb(58, 58, 91);
+  color: white;
+  font-family: Arial, sans-serif;
+  border: none;
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 6px;
+  
+}
+#increment:hover{
+  background-color: rgb(168, 168, 175);
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+  
+}
+#decrement{
+  background-color: rgb(58, 58, 91);
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+#decrement:hover{
+  background-color: rgb(168, 168, 175);
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+}
