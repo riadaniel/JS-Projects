@@ -1,0 +1,53 @@
+
+    body {
+      margin: 0;
+      font-family: monospace;
+      background: #1e1e1e;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    .editor-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 10px;
+      flex: 1;
+      padding: 10px;
+    }
+
+    .panel {
+      background: #252526;
+      border-radius: 6px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .panel h2 {
+      margin: 0;
+      padding: 8px;
+      background: #333;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    textarea {
+      flex: 1;
+      background: #1e1e1e;
+      color: #d4d4d4;
+      border: none;
+      outline: none;
+      padding: 10px;
+      font-size: 14px;
+      resize: none;
+    }
+
+    iframe {
+      flex: 1;
+      border: none;
+      background: #fff;
+    }
+  
