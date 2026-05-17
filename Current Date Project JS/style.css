@@ -1,0 +1,22 @@
+body{
+  display: flex;
+  flex-direction: column;   
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(205, 232, 223);
+}
+h1{
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: rgb(55, 21, 209);
+}
+.date-container{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+#current-day, #current-month, #current-year {
+  font-size: 1.5rem;
+  color: #333;
+}
